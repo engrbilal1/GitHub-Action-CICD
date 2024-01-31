@@ -24,9 +24,9 @@
 							<artifactItems>
 								<artifactItem>
 									<groupId>com.github.jsimone</groupId>
-									<artifactId>webapp-runner</artifactId>
+									<artifactId>onlinebookstore</artifactId>
 									<version>8.0.30.2</version>
-									<destFileName>webapp-runner.jar</destFileName>
+									<destFileName>onlinebookstore.jar</destFileName>
 								</artifactItem>
 							</artifactItems>
 						</configuration>
