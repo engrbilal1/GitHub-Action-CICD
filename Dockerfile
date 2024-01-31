@@ -2,7 +2,7 @@ FROM openjdk:8u151-jdk-alpine3.7
 
 ENV APP_HOME /usr/src/app
 
-ADD target/webapp-runner.jar $APP_HOME/app.jar
+COPY *webapp-runner.jar $APP_HOME/app.jar
 
 WORKDIR $APP_HOME
 
