@@ -31,6 +31,8 @@ jobs:
 #        sh: mvn clean package -DskipTests=true
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Check for JAR file
+      run: ls -l /home/runner/work/GitHub-Action-CICD/GitHub-Action-CICD/target/dependency/webapp-runner.jar
   Build_Docker:
     runs-on: ubuntu-latest
     needs: build
