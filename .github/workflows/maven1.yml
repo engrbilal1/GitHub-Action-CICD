@@ -31,7 +31,7 @@ jobs:
         cache: maven
 #        sh: mvn clean package -DskipTests=true
     - name: Build with Maven
-      run: mvn package
+      run: mvn clean package -DskipTests=true
   Build_Docker:
     name: Build Docker Image
     runs-on: ubuntu-latest
